@@ -99,6 +99,28 @@ gulp.task('deploy', function() {
     }));
 });
 
+// gulp.task('deploy', function() {
+//   return gulp.src('dist/**/**/*')
+//     .pipe(deploy({
+//       repository: 'https://github.com/NotoriousPAT/NotoriousPAT.github.io.git',
+//       prefix: 'dist',
+//       message: 'gulp deploy',
+//       branches:   ['master'],
+//         debug:'true'
+//     }))
+//     .pipe(deploy({
+//       repository: 'https://github.com/NotoriousPAT/NotoriousPAT.github.io.git',
+//       branches:   ['testdeploy']
+//     }));
+// });
+
+
+
+
+
+
+
+
 // this was working
 // gulp.task('deploy', function() {
 //   return gulp.src('dist/**/**')
