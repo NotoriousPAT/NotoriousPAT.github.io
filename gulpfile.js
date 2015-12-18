@@ -91,7 +91,11 @@ gulp.task('deploy', function() {
   return gulp.src('dist/**/**/*')
     .pipe(deploy({
       repository: 'https://github.com/NotoriousPAT/NotoriousPAT.github.io.git',
-      prefix: 'dist'
+      prefix: 'dist',
+      message: 'gulp deploy',
+      remoteBranch:'deploy',
+      branches:'build',
+      debug:'true'
     }));
 });
 
