@@ -5841,14 +5841,10 @@ button.back-to-top {
       right: 2em;
       height: 2em;
       width: 2em; } }
-  @media (min-width: 1200px) {
-    button.back-to-top {
-      bottom: 2em;
-      right: 4em; } }
   @media (min-width: 1400px) {
     button.back-to-top {
       bottom: 2em;
-      right: 8em; } }
+      right: 6em; } }
   @media (min-width: 1600px) {
     button.back-to-top {
       bottom: 2em;

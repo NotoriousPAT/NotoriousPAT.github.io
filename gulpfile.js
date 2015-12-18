@@ -92,27 +92,13 @@ gulp.task('deploy', function() {
     .pipe(deploy({
       repository: 'https://github.com/NotoriousPAT/NotoriousPAT.github.io.git',
       prefix: 'dist',
-      message: 'gulp deploy',
-      remoteBranch:'deploy',
-      branches:'build',
-      debug:'true'
+      // message: 'gulp deploy',
+      // remoteBranch:'testdeploy',
+      // branches:'build',
+      // debug:'true'
     }));
 });
 
-// gulp.task('deploy', function() {
-//   return gulp.src('dist/**/**/*')
-//     .pipe(deploy({
-//       repository: 'https://github.com/NotoriousPAT/NotoriousPAT.github.io.git',
-//       prefix: 'dist',
-//       message: 'gulp deploy',
-//       branches:   ['master'],
-//         debug:'true'
-//     }))
-//     .pipe(deploy({
-//       repository: 'https://github.com/NotoriousPAT/NotoriousPAT.github.io.git',
-//       branches:   ['testdeploy']
-//     }));
-// });
 
 
 
