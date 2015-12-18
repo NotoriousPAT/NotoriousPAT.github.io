@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 650 434" enable-background="new 0 0 650 434" xml:space="preserve">
+<g>
+	<image overflow="visible" width="650" height="434" xlink:href="404.jpg" >
+	</image>
+	<path fill="none" d="M223,162.4"/>
+	<path fill="#D81D1D" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M223,200.2"/>
+	<path fill="#D81D1D" stroke="#D81D1D" stroke-miterlimit="10" d="M246,200.2"/>
+	
+		<rect x="258" y="134.9" transform="matrix(0.9563 -0.2924 0.2924 0.9563 -33.4727 112.9062)" fill="none" width="206" height="67"/>
+	
+		<text transform="matrix(0.9563 -0.2924 0.2924 0.9563 264.7859 206.0289)" fill="#D31818" stroke="#D31818" stroke-miterlimit="10" font-family="'Chalkduster'" font-size="48">page</text>
+	<path fill="none" d="M660.5,378l-146.6,23.2c-13.6,2.2-26.4-7.1-28.6-20.8l-6.1-38.6c-2.2-13.6,7.1-26.4,20.8-28.6L646.5,290
+		c13.6-2.2,26.4,7.1,28.6,20.8l6.1,38.6C683.4,363,674.1,375.8,660.5,378z"/>
+	<text transform="matrix(0.9877 -0.1564 0.1564 0.9877 492.8068 356.1537)"><tspan x="0" y="0" fill="#D31818" stroke="#D31818" stroke-miterlimit="10" font-family="'Chalkduster'" font-size="48">404</tspan><tspan x="121" y="0" fill="#D31818" font-family="'Chalkduster'" font-size="48"> </tspan></text>
+	<path fill="none" d="M680.3,428H490.1c-2.3,0-4.1-1.8-4.1-4.1V343c0-2.3,1.8-4.1,4.1-4.1h190.2c2.3,0,4.1,1.8,4.1,4.1v80.9
+		C684.4,426.2,682.6,428,680.3,428z"/>
+	
+		<text transform="matrix(1 0 0 1 486 380.2007)" fill="#D31818" stroke="#D31818" stroke-miterlimit="10" font-family="'Chalkduster'" font-size="48">error</text>
+	
+		<text transform="matrix(0.9708 -0.2401 0.2401 0.9708 222.9996 247.815)" fill="#D31818" font-family="'Chalkduster'" font-size="48">______</text>
+</g>
+</svg>
