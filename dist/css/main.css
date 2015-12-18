@@ -6218,7 +6218,7 @@ h1#title {
   height: 100%; }
 
 .project1:before {
-  content: 'The Memory Game'; }
+  content: 'Guessing Game'; }
 
 .project1:after {
   content: 'HTML5 CSS3 JavaScript. Link coming soon...'; }
@@ -6239,7 +6239,7 @@ h1#title {
       margin-left: 55%; } }
   @media (min-width: 1200px) {
     .project2 {
-      width: 26em;
+      width: 24em;
       height: auto;
       margin-top: -4em;
       margin-left: 55%; } }
@@ -6270,7 +6270,7 @@ h1#title {
       margin-left: 20%; } }
 
 .project3:before {
-  content: 'Guessing Game'; }
+  content: 'The Memory Game'; }
 
 .project3:after {
   content: 'HTML5 CSS3 JavaScript. Link coming soon...';

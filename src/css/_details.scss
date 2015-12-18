@@ -289,7 +289,7 @@ margin-left: 2%;
   height: 100%;
 }
 .project1:before{
-  content: 'The Memory Game';
+    content: 'Guessing Game';
 
 }
 .project1:after{
@@ -312,7 +312,7 @@ margin-left: 2%;
     margin-left: 55%;
   }
   @media (min-width: 1200px) {
-    width:26em;
+    width:24em;
     height: auto;
     margin-top: -4em;
     margin-left: 55%;
@@ -352,7 +352,8 @@ content: "A private alumni web app for graduates of The Iron Yard.  HTML5 CSS3 j
   }
 }
 .project3:before{
-    content: 'Guessing Game';
+
+    content: 'The Memory Game';
 }
 .project3:after{
   content: 'HTML5 CSS3 JavaScript. Link coming soon...';
