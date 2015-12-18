@@ -246,7 +246,7 @@ gulp.task('fonts', function () {
 
 // Clean the destination directory
 gulp.task('clean', function (cb) {
-     del(['./dist/css/*', './dist/img/*', './dist/js/*', './dist/404.html', './dist/index.html'], cb);
+     del(['./dist/css/*', './dist/css/fonts/*','./dist/img/*', './dist/img/favicon/*', './dist/js/*', './dist/404.html', './dist/index.html'], cb);
 });
 
 
