@@ -4,6 +4,9 @@ button.back-to-top{
   height: 1.75em;
   width: 1.75em;
   border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius: 50%;
+
   border: medium solid $accent;
   background-color: $white;
   position: fixed;
@@ -145,6 +148,8 @@ li>a {
   .icon {
     border: thin solid $white;
     border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius: 50%;
     background-color: $accent;
     color: $white;
     box-shadow: 0.2083em 0.2083em 0.2083em 0 $accent-dark inset;

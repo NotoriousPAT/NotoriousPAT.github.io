@@ -29,3 +29,18 @@ else {
    return false; //extra, and to make sure the function has consistent return points
   }
 });
+
+
+$('.logo-hover').on("touchstart", function (e) {
+'use strict'; //satisfy code inspectors
+var link = $(this); //preselect the link
+if (link.hasClass('touch-hover')) {
+    return true;
+ }
+else {
+   link.addClass('touch-hover');
+   $('logo-hover').not(this).removeClass('touch-hover');
+   e.preventDefault();
+   return false; //extra, and to make sure the function has consistent return points
+  }
+});

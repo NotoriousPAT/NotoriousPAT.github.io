@@ -18,6 +18,7 @@ h1{
   font-family: $font-headings;
   color:$accent-bronze-light;
   opacity: 0.6;
+    -webkit-opacity:0.6;
   font-size: 3.5em;
   font-weight: bold;
   margin: 2em 0 .5em 0em;
@@ -68,6 +69,8 @@ em{
   box-shadow:  0.5125em 0.75em 1.25em 0.2em $box-shadow inset;
   background-color: $white;
 	border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius: 50%;
   padding: 1em;
   margin: .5em;
   width: 10em;
@@ -164,7 +167,7 @@ h1#title{
 
   float: none;
   font-size: 1.2em;
-  font-family: $font-body;
+
   padding: .5em;
   border: solid thick $white;
   position: relative;
@@ -203,23 +206,30 @@ h1#title{
 .logo-hover:after, .logo-hover:before {
   position:absolute;
   opacity:0;
+  -webkit-opacity:0;
   transition: all 0.75s;
   -webkit-transition: all 0.25s;
+font-family: $font-body;
+
 }
 
 .touch-hover:before,
 .port-hover:before,
 .logo-hover:before {
   width:100%;
+  height: 100%;
   color:$white;
-  z-index:1;
+
+  background:rgba(197, 25, 128, 0.96);
+  background-color: $accent-filter;
+  // z-index:1;
   top:0;
   left:0;
   text-align: center;
   padding:1em;
-  font-family: serif;
+
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 20px;
   text-align:center;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -228,13 +238,21 @@ h1#title{
 .port-hover:after,
 .logo-hover:after {
   color: $white;
-  background:rgba(197, 25, 128, 0.90);
-  background-color: $accent-filter;
-  width:100%; height:100%;
-  top:0; left:0;
+  // background:rgba(197, 25, 128, 0.90);
+  // background-color: $accent-filter;
+  width:100%;
+  // height:100%;
+  // top:0; left:0;
   text-align: center;
-  font-size: 1.1em;
-  padding: 3.5em 1em 1em 1em;
+  // font-size: 1.1em;
+  // padding: 3.5em 1em 1em 1em;
+  padding: 0 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  line-height: 110%;
 }
 
 
@@ -356,13 +374,14 @@ content: "A private alumni web app for graduates of The Iron Yard.  HTML5 CSS3 j
     content: 'The Memory Game';
 }
 .project3:after{
-  content: 'HTML5 CSS3 JavaScript. Link coming soon...';
-  padding: 4em 2em 1em 2em;
+  content: 'HTML5 CSS3 JavaScript. A tile matching game powered with JavaScript. Link coming soon...';
+  // padding: 4em 2em 1em 2em;
 
 }
 
 .port-hover:hover:after, .port-hover:hover:before {
     opacity:1;
+      -webkit-opacity:1;
 }
 
 
@@ -424,7 +443,7 @@ h1#title2{
   height: 10em;
   width: 10em;
   box-shadow: 0.3125em 0.5em 1.25em  $box-shadow;
-  font-size: 1.2em;
+  font-size: 18px;
   font-family: $font-body;
   border: thin solid $white;
   color: $white;
@@ -508,7 +527,7 @@ h1#title2{
 }
 .pencil:after{
   content:'A social networking calendar.';
-  padding-top: 3em;
+  // padding-top: 3em;
 }
 
 .words{
@@ -521,7 +540,7 @@ h1#title2{
 .words:before{
   content: '150 Words or Less';
   // font-size: 1.25em;
-  padding: 1em .5em;
+  // padding: 1em .5em;
 }
 .words:after{
   content: 'A blog. Any topic. 150 Words or Less.';
@@ -537,11 +556,13 @@ h1#title2{
 .foundry:before{
   content: 'The Foundry';
   padding:.5em ;
-  font-size: 1.1em;
+  // font-size: 1.1em;
 }
 .foundry:after{
   content: 'A coworking space.';
-  padding-top: 2em;
+  // -webkit-transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
+  margin-top: 15%;
 }
 .twp{
 
@@ -554,14 +575,15 @@ h1#title2{
 .twp:before{
   content: 'Travels With Patti';
 
-  font-size: 1.1em;
+  // font-size: 1.1em;
 }
 .twp:after{
   content: 'A travel blog.';
-    padding: 5em 1em 1em 1em;
+  margin-top: 15%;
 }
 .logo-hover:hover:after, .logo-hover:hover:before {
   opacity:1;
+    -webkit-opacity:1;
 }
 
 
@@ -595,6 +617,8 @@ h1#title2{
   box-shadow: 0.5125em 0.75em 1.25em 0.2em $box-shadow inset;
   background-color: $white;
 	border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius: 50%;
   padding: 1em;
   margin-left: .75em;
   margin-right: -1em;
