@@ -1,2 +1,0 @@
-Patti MacKay
-Web Developer
