@@ -5851,7 +5851,7 @@ button.back-to-top {
 button:hover {
   border-color: #ffffff;
   background-color: #c51980;
-  box-shadow: 0.1071em 0.1786em 0.25em #7a0e4f inset; }
+  box-shadow: 0.1071em 0.1786em 0.25em #a31369 inset; }
 
 .icon-chevron-up {
   color: #c51980;
@@ -5860,7 +5860,7 @@ button:hover {
 
 .icon-chevron-up:hover {
   color: #ffffff;
-  text-shadow: 0.1071em 0.1786em 0.075em #7a0e4f; }
+  text-shadow: 0.1071em 0.1786em 0.075em #a31369; }
 
 .social-links-bkgrnd {
   background-color: #a31369;
@@ -5892,7 +5892,7 @@ li > a {
   color: #ffffff;
   font-family: "Arimo", sans-serif;
   font-size: 1em;
-  text-shadow: 0.1833em 0.1833em 0.09em #7a0e4f;
+  text-shadow: 0.1833em 0.1833em 0.09em #a31369;
   letter-spacing: .05em; }
   @media (min-width: 400px) {
     li > a {
@@ -5927,8 +5927,8 @@ li > a {
   -webkit-border-radius: 50%;
   background-color: #c51980;
   color: #ffffff;
-  box-shadow: 0.2083em 0.2083em 0.2083em 0 #7a0e4f inset;
-  text-shadow: 0.1833em 0.1833em 0.3em #7a0e4f;
+  box-shadow: 0.2083em 0.2083em 0.2083em 0 #a31369 inset;
+  text-shadow: 0.1833em 0.1833em 0.3em #a31369;
   padding: .4em .36em .20em .50em;
   line-height: 2.25em;
   font-size: 1.25em;
@@ -6198,35 +6198,46 @@ h1#title {
   margin-bottom: 2em; }
   @media (min-width: 768px) {
     .project1 {
-      width: 12em;
+      width: 14em;
       height: auto;
       margin-top: -4em;
       margin-bottom: 0;
-      margin-left: 2%; } }
+      margin-left: 0%; } }
   @media (min-width: 992px) {
     .project1 {
-      width: 14em;
+      width: 18em;
       height: auto;
-      margin-left: 13%;
+      margin-left: 8%;
       margin-top: 10em;
       clear: left; } }
   @media (min-width: 1200px) {
     .project1 {
-      width: 16em;
+      width: 22em;
       height: auto;
-      margin-left: 13%;
+      margin-left: 4%;
       margin-top: 10em; } }
 
 .video-proj1 {
   padding: .5em;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  font-size: 1em; }
 
 .project1:before {
-  content: 'Guessing Game'; }
+  content: 'The Forge '; }
 
 .project1:after {
-  content: 'HTML5 CSS3 JavaScript. Link coming soon...'; }
+  padding-top: 1em;
+  content: "A private alumni web app for graduates of The Iron Yard.  HTML5, CSS3, jQuery, JavaScript. Project collaboration with Ruby on Rails Team. Link to youtube video of project. (Site is password protected)."; }
+  @media (min-width: 768px) {
+    .project1:after {
+      content: "A private alumni web app for graduates of The Iron Yard."; } }
+  @media (min-width: 992px) {
+    .project1:after {
+      content: "A private alumni web app for graduates of The Iron Yard.  HTML5, CSS3, jQuery, JavaScript.  Link to youtube video of project."; } }
+  @media (min-width: 1200px) {
+    .project1:after {
+      content: "A private alumni web app for graduates of The Iron Yard.  HTML5, CSS3, jQuery, JavaScript. Project collaboration with Ruby on Rails Team. Link to youtube video of project. (Site is password protected)."; } }
 
 .project2 {
   margin-bottom: 2em; }
@@ -6244,16 +6255,18 @@ h1#title {
       margin-left: 55%; } }
   @media (min-width: 1200px) {
     .project2 {
-      width: 24em;
+      width: 30em;
       height: auto;
-      margin-top: -4em;
+      margin-top: -8em;
       margin-left: 55%; } }
 
 .project2:before {
-  content: 'The Forge '; }
+  content: 'Libby O\'Malley Personal Website '; }
 
 .project2:after {
-  content: "A private alumni web app for graduates of The Iron Yard.  HTML5 CSS3 jQuery JavaScript.  Project collaboration with Ruby on Rails team. Project video coming soon."; }
+  content: 'Designed and handcoded from scratch. HTML5, CSS3, Sass, JavaScript, jQuery, Bootstrap, Gulp.';
+  padding-top: 2em;
+  line-height: 1.5em; }
 
 .project3 {
   display: inline-block; }
@@ -6265,14 +6278,14 @@ h1#title {
       margin-left: 4%; } }
   @media (min-width: 992px) {
     .project3 {
-      width: 18em;
+      width: 19em;
       height: auto;
       margin-left: 16%; } }
   @media (min-width: 1200px) {
     .project3 {
-      width: 20em;
+      width: 24em;
       height: auto;
-      margin-left: 20%; } }
+      margin-left: 16%; } }
 
 .project3:before {
   content: 'The Memory Game'; }
@@ -6333,7 +6346,7 @@ h1#title2 {
   box-shadow: 0.3125em 0.5em 1.25em #bfc3c8;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
-  border: thin solid #ffffff;
+  border: thick solid #ffffff;
   color: #ffffff;
   background-color: #aea198;
   color: #ffffff;
@@ -6401,6 +6414,36 @@ h1#title2 {
 .twp:after {
   content: 'A travel blog.';
   margin-top: 15%; }
+
+.logo-hover:hover:after, .logo-hover:hover:before {
+  opacity: 1;
+  -webkit-opacity: 1; }
+
+.patriyachtic {
+  width: 18em; }
+  @media (min-width: 768px) {
+    .patriyachtic {
+      width: 16em;
+      margin-top: -7em;
+      margin-bottom: 2em;
+      margin-left: 64%; } }
+  @media (min-width: 992px) {
+    .patriyachtic {
+      width: 16em;
+      margin-top: -6.5em;
+      margin-left: 64%; } }
+  @media (min-width: 1200px) {
+    .patriyachtic {
+      width: 16em;
+      margin-top: -6.75em;
+      margin-left: 54%; } }
+
+.patriyachtic:before {
+  content: 'Patriyachtic'; }
+
+.patriyachtic:after {
+  content: 'Logo for a sailboat.';
+  margin-top: .5em; }
 
 .logo-hover:hover:after, .logo-hover:hover:before {
   opacity: 1;
